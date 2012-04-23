@@ -1,0 +1,6 @@
+[submodule "Libs/GMGridView"]
+	path = Libs/GMGridView
+	url = git://github.com/gmoledina/GMGridView.git
+[submodule "Libs/cNBT"]
+	path = Libs/cNBT
+	url = git://github.com/FliPPeh/cNBT.git

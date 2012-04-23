@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57A17F6F151EE7CF008C9471 /* testDataSanity.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 57A17F6E151EE7CF008C9471 /* testDataSanity.schematic */; };
+		57A17F94151EE93E008C9471 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A17F73151EE93E008C9471 /* buffer.c */; };
+		57A17F95151EE93E008C9471 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A17F73151EE93E008C9471 /* buffer.c */; };
+		57A17FAA151EE93E008C9471 /* nbt_loading.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A17F81151EE93E008C9471 /* nbt_loading.c */; };
+		57A17FAB151EE93E008C9471 /* nbt_loading.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A17F81151EE93E008C9471 /* nbt_loading.c */; };
+		57A17FAE151EE93E008C9471 /* nbt_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A17F83151EE93E008C9471 /* nbt_parsing.c */; };
+		57A17FAF151EE93E008C9471 /* nbt_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A17F83151EE93E008C9471 /* nbt_parsing.c */; };
+		57A17FB2151EE93E008C9471 /* nbt_treeops.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A17F85151EE93E008C9471 /* nbt_treeops.c */; };
+		57A17FB3151EE93E008C9471 /* nbt_treeops.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A17F85151EE93E008C9471 /* nbt_treeops.c */; };
+		57A17FB6151EE93E008C9471 /* nbt_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A17F87151EE93E008C9471 /* nbt_util.c */; };
+		57A17FB7151EE93E008C9471 /* nbt_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 57A17F87151EE93E008C9471 /* nbt_util.c */; };
+		57A17FC9151EEC5F008C9471 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A17FC7151EEC1C008C9471 /* libz.dylib */; };
+		57A17FCA151EEC67008C9471 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A17FC7151EEC1C008C9471 /* libz.dylib */; };
+		57A17FCB151EED8D008C9471 /* testDataSanity.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 57A17F6E151EE7CF008C9471 /* testDataSanity.schematic */; };
+		57A17FD2151EEFCE008C9471 /* Workspace.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A17FD1151EEFCE008C9471 /* Workspace.m */; };
+		57A17FD6151EEFF4008C9471 /* TwoDimensionalMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A17FD5151EEFF4008C9471 /* TwoDimensionalMutableArray.m */; };
+		57AA5E26151ED99E000A913B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AA5E25151ED99E000A913B /* UIKit.framework */; };
+		57AA5E28151ED99E000A913B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AA5E27151ED99E000A913B /* Foundation.framework */; };
+		57AA5E2A151ED99E000A913B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AA5E29151ED99E000A913B /* CoreGraphics.framework */; };
+		57AA5E30151ED99E000A913B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57AA5E2E151ED99E000A913B /* InfoPlist.strings */; };
+		57AA5E32151ED99E000A913B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AA5E31151ED99E000A913B /* main.m */; };
+		57AA5E36151ED99E000A913B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AA5E35151ED99E000A913B /* AppDelegate.m */; };
+		57AA5E39151ED99E000A913B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AA5E37151ED99E000A913B /* MainStoryboard_iPhone.storyboard */; };
+		57AA5E3C151ED99E000A913B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AA5E3A151ED99E000A913B /* MainStoryboard_iPad.storyboard */; };
+		57AA5E3F151ED99E000A913B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AA5E3E151ED99E000A913B /* FirstViewController.m */; };
+		57AA5E41151ED99F000A913B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AA5E40151ED99F000A913B /* first.png */; };
+		57AA5E43151ED99F000A913B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AA5E42151ED99F000A913B /* first@2x.png */; };
+		57AA5E46151ED99F000A913B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AA5E45151ED99F000A913B /* SecondViewController.m */; };
+		57AA5E48151ED99F000A913B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AA5E47151ED99F000A913B /* second.png */; };
+		57AA5E4A151ED99F000A913B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AA5E49151ED99F000A913B /* second@2x.png */; };
+		57AA5E52151ED99F000A913B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AA5E51151ED99F000A913B /* SenTestingKit.framework */; };
+		57AA5E53151ED99F000A913B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AA5E25151ED99E000A913B /* UIKit.framework */; };
+		57AA5E54151ED99F000A913B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AA5E27151ED99E000A913B /* Foundation.framework */; };
+		57AA5E5C151ED99F000A913B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57AA5E5A151ED99F000A913B /* InfoPlist.strings */; };
+		57AA5E5F151ED99F000A913B /* iRedstoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AA5E5E151ED99F000A913B /* iRedstoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57AA5E55151ED99F000A913B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57AA5E18151ED99E000A913B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57AA5E20151ED99E000A913B;
+			remoteInfo = iRedstone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57A17F6E151EE7CF008C9471 /* testDataSanity.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = testDataSanity.schematic; sourceTree = "<group>"; };
+		57A17F73151EE93E008C9471 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		57A17F74151EE93E008C9471 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		57A17F7B151EE93E008C9471 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		57A17F7F151EE93E008C9471 /* nbt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nbt.h; sourceTree = "<group>"; };
+		57A17F81151EE93E008C9471 /* nbt_loading.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nbt_loading.c; sourceTree = "<group>"; };
+		57A17F83151EE93E008C9471 /* nbt_parsing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nbt_parsing.c; sourceTree = "<group>"; };
+		57A17F85151EE93E008C9471 /* nbt_treeops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nbt_treeops.c; sourceTree = "<group>"; };
+		57A17F87151EE93E008C9471 /* nbt_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nbt_util.c; sourceTree = "<group>"; };
+		57A17FC7151EEC1C008C9471 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		57A17FD0151EEFCE008C9471 /* Workspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workspace.h; sourceTree = "<group>"; };
+		57A17FD1151EEFCE008C9471 /* Workspace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Workspace.m; sourceTree = "<group>"; };
+		57A17FD4151EEFF4008C9471 /* TwoDimensionalMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDimensionalMutableArray.h; sourceTree = "<group>"; };
+		57A17FD5151EEFF4008C9471 /* TwoDimensionalMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDimensionalMutableArray.m; sourceTree = "<group>"; };
+		57AA5E21151ED99E000A913B /* iRedstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRedstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AA5E25151ED99E000A913B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57AA5E27151ED99E000A913B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57AA5E29151ED99E000A913B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57AA5E2D151ED99E000A913B /* iRedstone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRedstone-Info.plist"; sourceTree = "<group>"; };
+		57AA5E2F151ED99E000A913B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57AA5E31151ED99E000A913B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57AA5E33151ED99E000A913B /* iRedstone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRedstone-Prefix.pch"; sourceTree = "<group>"; };
+		57AA5E34151ED99E000A913B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57AA5E35151ED99E000A913B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57AA5E38151ED99E000A913B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		57AA5E3B151ED99E000A913B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		57AA5E3D151ED99E000A913B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		57AA5E3E151ED99E000A913B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		57AA5E40151ED99F000A913B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		57AA5E42151ED99F000A913B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		57AA5E44151ED99F000A913B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		57AA5E45151ED99F000A913B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		57AA5E47151ED99F000A913B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		57AA5E49151ED99F000A913B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		57AA5E50151ED99F000A913B /* iRedstoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRedstoneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AA5E51151ED99F000A913B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		57AA5E59151ED99F000A913B /* iRedstoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRedstoneTests-Info.plist"; sourceTree = "<group>"; };
+		57AA5E5B151ED99F000A913B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57AA5E5D151ED99F000A913B /* iRedstoneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRedstoneTests.h; sourceTree = "<group>"; };
+		57AA5E5E151ED99F000A913B /* iRedstoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRedstoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57AA5E1E151ED99E000A913B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A17FCA151EEC67008C9471 /* libz.dylib in Frameworks */,
+				57AA5E26151ED99E000A913B /* UIKit.framework in Frameworks */,
+				57AA5E28151ED99E000A913B /* Foundation.framework in Frameworks */,
+				57AA5E2A151ED99E000A913B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AA5E4C151ED99F000A913B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A17FC9151EEC5F008C9471 /* libz.dylib in Frameworks */,
+				57AA5E52151ED99F000A913B /* SenTestingKit.framework in Frameworks */,
+				57AA5E53151ED99F000A913B /* UIKit.framework in Frameworks */,
+				57AA5E54151ED99F000A913B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57A17DE7151ED9E6008C9471 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				57A17F70151EE93E008C9471 /* cNBT */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		57A17ED7151EE51B008C9471 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57A17FD0151EEFCE008C9471 /* Workspace.h */,
+				57A17FD1151EEFCE008C9471 /* Workspace.m */,
+				57A17FD4151EEFF4008C9471 /* TwoDimensionalMutableArray.h */,
+				57A17FD5151EEFF4008C9471 /* TwoDimensionalMutableArray.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		57A17F70151EE93E008C9471 /* cNBT */ = {
+			isa = PBXGroup;
+			children = (
+				57A17F73151EE93E008C9471 /* buffer.c */,
+				57A17F74151EE93E008C9471 /* buffer.h */,
+				57A17F7B151EE93E008C9471 /* list.h */,
+				57A17F7F151EE93E008C9471 /* nbt.h */,
+				57A17F81151EE93E008C9471 /* nbt_loading.c */,
+				57A17F83151EE93E008C9471 /* nbt_parsing.c */,
+				57A17F85151EE93E008C9471 /* nbt_treeops.c */,
+				57A17F87151EE93E008C9471 /* nbt_util.c */,
+			);
+			path = cNBT;
+			sourceTree = "<group>";
+		};
+		57AA5E16151ED99E000A913B = {
+			isa = PBXGroup;
+			children = (
+				57A17FC7151EEC1C008C9471 /* libz.dylib */,
+				57A17DE7151ED9E6008C9471 /* Libs */,
+				57AA5E2B151ED99E000A913B /* iRedstone */,
+				57AA5E57151ED99F000A913B /* iRedstoneTests */,
+				57AA5E24151ED99E000A913B /* Frameworks */,
+				57AA5E22151ED99E000A913B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57AA5E22151ED99E000A913B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57AA5E21151ED99E000A913B /* iRedstone.app */,
+				57AA5E50151ED99F000A913B /* iRedstoneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57AA5E24151ED99E000A913B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57AA5E25151ED99E000A913B /* UIKit.framework */,
+				57AA5E27151ED99E000A913B /* Foundation.framework */,
+				57AA5E29151ED99E000A913B /* CoreGraphics.framework */,
+				57AA5E51151ED99F000A913B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57AA5E2B151ED99E000A913B /* iRedstone */ = {
+			isa = PBXGroup;
+			children = (
+				57A17ED7151EE51B008C9471 /* Model */,
+				57AA5E34151ED99E000A913B /* AppDelegate.h */,
+				57AA5E35151ED99E000A913B /* AppDelegate.m */,
+				57AA5E37151ED99E000A913B /* MainStoryboard_iPhone.storyboard */,
+				57AA5E3A151ED99E000A913B /* MainStoryboard_iPad.storyboard */,
+				57AA5E3D151ED99E000A913B /* FirstViewController.h */,
+				57AA5E3E151ED99E000A913B /* FirstViewController.m */,
+				57AA5E40151ED99F000A913B /* first.png */,
+				57AA5E42151ED99F000A913B /* first@2x.png */,
+				57AA5E44151ED99F000A913B /* SecondViewController.h */,
+				57AA5E45151ED99F000A913B /* SecondViewController.m */,
+				57AA5E47151ED99F000A913B /* second.png */,
+				57AA5E49151ED99F000A913B /* second@2x.png */,
+				57AA5E2C151ED99E000A913B /* Supporting Files */,
+			);
+			path = iRedstone;
+			sourceTree = "<group>";
+		};
+		57AA5E2C151ED99E000A913B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57AA5E2D151ED99E000A913B /* iRedstone-Info.plist */,
+				57AA5E2E151ED99E000A913B /* InfoPlist.strings */,
+				57AA5E31151ED99E000A913B /* main.m */,
+				57AA5E33151ED99E000A913B /* iRedstone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57AA5E57151ED99F000A913B /* iRedstoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				57A17F6E151EE7CF008C9471 /* testDataSanity.schematic */,
+				57AA5E5D151ED99F000A913B /* iRedstoneTests.h */,
+				57AA5E5E151ED99F000A913B /* iRedstoneTests.m */,
+				57AA5E58151ED99F000A913B /* Supporting Files */,
+			);
+			path = iRedstoneTests;
+			sourceTree = "<group>";
+		};
+		57AA5E58151ED99F000A913B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57AA5E59151ED99F000A913B /* iRedstoneTests-Info.plist */,
+				57AA5E5A151ED99F000A913B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57AA5E20151ED99E000A913B /* iRedstone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57AA5E62151ED99F000A913B /* Build configuration list for PBXNativeTarget "iRedstone" */;
+			buildPhases = (
+				57AA5E1D151ED99E000A913B /* Sources */,
+				57AA5E1E151ED99E000A913B /* Frameworks */,
+				57AA5E1F151ED99E000A913B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRedstone;
+			productName = iRedstone;
+			productReference = 57AA5E21151ED99E000A913B /* iRedstone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57AA5E4F151ED99F000A913B /* iRedstoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57AA5E65151ED99F000A913B /* Build configuration list for PBXNativeTarget "iRedstoneTests" */;
+			buildPhases = (
+				57AA5E4B151ED99F000A913B /* Sources */,
+				57AA5E4C151ED99F000A913B /* Frameworks */,
+				57AA5E4D151ED99F000A913B /* Resources */,
+				57AA5E4E151ED99F000A913B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57AA5E56151ED99F000A913B /* PBXTargetDependency */,
+			);
+			name = iRedstoneTests;
+			productName = iRedstoneTests;
+			productReference = 57AA5E50151ED99F000A913B /* iRedstoneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57AA5E18151ED99E000A913B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Self-Employed";
+			};
+			buildConfigurationList = 57AA5E1B151ED99E000A913B /* Build configuration list for PBXProject "iRedstone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57AA5E16151ED99E000A913B;
+			productRefGroup = 57AA5E22151ED99E000A913B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57AA5E20151ED99E000A913B /* iRedstone */,
+				57AA5E4F151ED99F000A913B /* iRedstoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57AA5E1F151ED99E000A913B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AA5E30151ED99E000A913B /* InfoPlist.strings in Resources */,
+				57A17FCB151EED8D008C9471 /* testDataSanity.schematic in Resources */,
+				57AA5E39151ED99E000A913B /* MainStoryboard_iPhone.storyboard in Resources */,
+				57AA5E3C151ED99E000A913B /* MainStoryboard_iPad.storyboard in Resources */,
+				57AA5E41151ED99F000A913B /* first.png in Resources */,
+				57AA5E43151ED99F000A913B /* first@2x.png in Resources */,
+				57AA5E48151ED99F000A913B /* second.png in Resources */,
+				57AA5E4A151ED99F000A913B /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AA5E4D151ED99F000A913B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AA5E5C151ED99F000A913B /* InfoPlist.strings in Resources */,
+				57A17F6F151EE7CF008C9471 /* testDataSanity.schematic in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57AA5E4E151ED99F000A913B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57AA5E1D151ED99E000A913B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AA5E32151ED99E000A913B /* main.m in Sources */,
+				57AA5E36151ED99E000A913B /* AppDelegate.m in Sources */,
+				57AA5E3F151ED99E000A913B /* FirstViewController.m in Sources */,
+				57AA5E46151ED99F000A913B /* SecondViewController.m in Sources */,
+				57A17F94151EE93E008C9471 /* buffer.c in Sources */,
+				57A17FAA151EE93E008C9471 /* nbt_loading.c in Sources */,
+				57A17FAE151EE93E008C9471 /* nbt_parsing.c in Sources */,
+				57A17FB2151EE93E008C9471 /* nbt_treeops.c in Sources */,
+				57A17FB6151EE93E008C9471 /* nbt_util.c in Sources */,
+				57A17FD2151EEFCE008C9471 /* Workspace.m in Sources */,
+				57A17FD6151EEFF4008C9471 /* TwoDimensionalMutableArray.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AA5E4B151ED99F000A913B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AA5E5F151ED99F000A913B /* iRedstoneTests.m in Sources */,
+				57A17F95151EE93E008C9471 /* buffer.c in Sources */,
+				57A17FAB151EE93E008C9471 /* nbt_loading.c in Sources */,
+				57A17FAF151EE93E008C9471 /* nbt_parsing.c in Sources */,
+				57A17FB3151EE93E008C9471 /* nbt_treeops.c in Sources */,
+				57A17FB7151EE93E008C9471 /* nbt_util.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57AA5E56151ED99F000A913B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57AA5E20151ED99E000A913B /* iRedstone */;
+			targetProxy = 57AA5E55151ED99F000A913B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57AA5E2E151ED99E000A913B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57AA5E2F151ED99E000A913B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57AA5E37151ED99E000A913B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57AA5E38151ED99E000A913B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		57AA5E3A151ED99E000A913B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57AA5E3B151ED99E000A913B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		57AA5E5A151ED99F000A913B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57AA5E5B151ED99F000A913B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57AA5E60151ED99F000A913B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57AA5E61151ED99F000A913B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57AA5E63151ED99F000A913B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRedstone/iRedstone-Prefix.pch";
+				INFOPLIST_FILE = "iRedstone/iRedstone-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libs/GMGridView/GMGridView/build/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/Libs/cNBT\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57AA5E64151ED99F000A913B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRedstone/iRedstone-Prefix.pch";
+				INFOPLIST_FILE = "iRedstone/iRedstone-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libs/GMGridView/GMGridView/build/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/Libs/cNBT\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57AA5E66151ED99F000A913B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iRedstone.app/iRedstone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRedstone/iRedstone-Prefix.pch";
+				INFOPLIST_FILE = "iRedstoneTests/iRedstoneTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libs/cNBT\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Libs/cNBT\"";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		57AA5E67151ED99F000A913B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iRedstone.app/iRedstone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRedstone/iRedstone-Prefix.pch";
+				INFOPLIST_FILE = "iRedstoneTests/iRedstoneTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libs/cNBT\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Libs/cNBT\"";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57AA5E1B151ED99E000A913B /* Build configuration list for PBXProject "iRedstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AA5E60151ED99F000A913B /* Debug */,
+				57AA5E61151ED99F000A913B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AA5E62151ED99F000A913B /* Build configuration list for PBXNativeTarget "iRedstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AA5E63151ED99F000A913B /* Debug */,
+				57AA5E64151ED99F000A913B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AA5E65151ED99F000A913B /* Build configuration list for PBXNativeTarget "iRedstoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AA5E66151ED99F000A913B /* Debug */,
+				57AA5E67151ED99F000A913B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57AA5E18151ED99E000A913B /* Project object */;
+}
